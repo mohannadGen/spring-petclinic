@@ -5,6 +5,7 @@ pipeline {
       steps {
         git(url: 'https://github.com/mitesh51/spring-petclinic.git', branch: 'master')
         bat 'mvn -B package'
+        bat 'sonar-scanner '
       }
     }
   }
