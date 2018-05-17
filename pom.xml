@@ -360,7 +360,7 @@
                 <version>2.2</version>
                 <configuration>
                     <server>tomcat-development-server</server>
-                   <url>http://localhost:8090/manager/text</url>
+                   <url>http://localhost:8093/manager/text</url>
                    <warFile>${project.basedir}/target/petclinic.war</warFile>
                    <path>/petclinic</path>
                 </configuration>
